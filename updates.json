@@ -1,6 +1,6 @@
 {
   "addons": {
-    "fuck@the.fism": {
+    "{a6fd85ed-e919-4a43-a5af-8da18bda539f}": {
       "updates": [
         {
           "version": "0.0.4",
@@ -9,6 +9,10 @@
         {
           "version": "0.0.5",
           "update_link": "https://raw.githubusercontent.com/kosolapus/ffextension/master/dist/borderify_0_0_5.xpi"
+        },
+        {
+          "version": "0.0.6",
+          "update_link": "https://raw.githubusercontent.com/kosolapus/ffextension/master/dist/borderify_0_0_6.xpi"
         }
       ]
     }
