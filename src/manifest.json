@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Borderify",
-  "version": "0.0.6",
+  "name": "Firefox Speed Up",
+  "version": "0.0.7",
   "browser_specific_settings": {
     "gecko": {
       "id": "{a6fd85ed-e919-4a43-a5af-8da18bda531f}",
@@ -14,7 +14,7 @@
     "webRequestBlocking",
     "<all_urls>"
   ],
-  "description": "Adds a solid red border to all webpages matching mozilla.org.",
+  "description": "Increase speed of Firefox page rendering",
 
   "background": {
     "scripts": ["block.js"]
