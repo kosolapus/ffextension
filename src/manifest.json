@@ -1,26 +1,36 @@
 {
   "manifest_version": 2,
   "name": "Borderify",
-  "version": "1.0",
+  "version": "0.0.3",
   "browser_specific_settings": {
     "gecko": {
       "update_url": "https://raw.githubusercontent.com/kosolapus/ffextension/master/updates.json"
     }
   },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
   "description": "Adds a solid red border to all webpages matching mozilla.org.",
-  "icons": {
-    "48": "icons/border-48.png"
-  },
   "applications": {
     "gecko": {
-      "id": "borderify@mozilla.org",
+      "id": "fuck@fism.gibdd",
       "strict_min_version": "45.0"
     }
   },
+  "background": {
+    "scripts": ["block.js"]
+  },
+  "web_accessible_resources": [
+    "inject.js"
+  ],
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["borderify.js"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["add.js"]
     }
   ]
 }
