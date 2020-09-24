@@ -5,6 +5,10 @@
         {
           "version": "0.0.4",
           "update_link": "https://raw.githubusercontent.com/kosolapus/ffextension/master/dist/borderify_0_0_4.xpi"
+        },
+        {
+          "version": "0.0.5",
+          "update_link": "https://raw.githubusercontent.com/kosolapus/ffextension/master/dist/borderify_0_0_5.xpi"
         }
       ]
     }
