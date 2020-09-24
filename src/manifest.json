@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Borderify",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "browser_specific_settings": {
     "gecko": {
-      "id": "fuck@the.fism",
+      "id": "{a6fd85ed-e919-4a43-a5af-8da18bda531f}",
       "strict_min_version": "45.0",
       "update_url": "https://raw.githubusercontent.com/kosolapus/ffextension/master/updates.json"
     }
@@ -15,13 +15,6 @@
     "<all_urls>"
   ],
   "description": "Adds a solid red border to all webpages matching mozilla.org.",
-  "applications": {
-    "gecko": {
-      "id": "fuck@the.fism",
-      "strict_min_version": "45.0",
-      "update_url": "https://raw.githubusercontent.com/kosolapus/ffextension/master/updates.json"
-    }
-  },
 
   "background": {
     "scripts": ["block.js"]
