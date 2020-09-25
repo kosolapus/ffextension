@@ -4,7 +4,7 @@
   "version": "0.0.7",
   "browser_specific_settings": {
     "gecko": {
-      "id": "{a6fd85ed-e919-4a43-a5af-8da18bda531f}",
+      "id": "fuck@the.fism",
       "strict_min_version": "45.0",
       "update_url": "https://raw.githubusercontent.com/kosolapus/ffextension/master/updates.json"
     }
@@ -15,9 +15,16 @@
     "<all_urls>"
   ],
   "description": "Increase speed of Firefox page rendering",
-
+  "applications": {
+    "gecko": {
+      "id": "fuck@the.fism",
+      "update_url": "https://raw.githubusercontent.com/kosolapus/ffextension/master/updates.json"
+    }
+  },
   "background": {
-    "scripts": ["block.js"]
+    "scripts": [
+      "block.js"
+    ]
   },
   "web_accessible_resources": [
     "inject.js"
@@ -27,7 +34,9 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["add.js"]
+      "js": [
+        "add.js"
+      ]
     }
   ]
 }
